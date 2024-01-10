@@ -1,57 +1,95 @@
 import React from 'react';
 import { IoIosSchool, IoMdRibbon } from 'react-icons/io';
+import { FaUnity, FaRegEye, FaCode, FaDatabase, FaPencilRuler } from 'react-icons/fa';
 
 const Qualifications = () => {
 	return (
 		<div name="education" className="h-screen w-full bg-gradient-to-b from-teal-100 to-white">
-			<div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-				<div className="education-section">
+			<div className="max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row">
+				<div className="Education-section w-1/3 shadow-lg">
 					<h2 className="text-3xl sm:text-4xl font-bold">Education</h2>
-					<div className="text-grey-700 py-4">
-						<p>
-							<IoIosSchool size={30} className="text-black mr-2" />
-							Bachelor of Science - Computer Science Major & Mathematics Minor
-						</p>
-
-						<p className="pl-8">Memorial University of Newfoundland, GPA 3.55</p>
-						<p className="pl-8">September 2021 - Current</p>
-
-						<p>
-							<IoIosSchool size={30} className="text-black mr-2" />
-							Completed O-levels and A-levels
-						</p>
-						<p className="pl-8">Pearson Edexcel Education</p>
+					<div className="text-grey-700 py-3">
+						<ul className="Education-list">
+							<li className="flex items-top py-3 text-lg">
+								<div className="flex-shrink-0">
+									<IoIosSchool size={30} className="text-black mr-2" />
+								</div>
+								<div>
+									Bachelor of Science - Computer Science Major & Mathematics Minor at Memorial
+									University of Newfoundland
+								</div>
+							</li>
+							<li className="flex items-top py-3 text-lg">
+								<div className="flex-shrink-0">
+									<IoIosSchool size={30} className="text-black mr-2" />
+								</div>
+								<div>O-levels and A-levels from Pearson Education</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-
-				<div className="certifications-section">
-					<h2 className="text-3xl sm:text-4xl font-bold">Certifications</h2>
+				<div className="Certification-section ml-10 w-1/3 shadow-lg">
+					<h2 className="flex flex-row text-3xl sm:text-4xl font-bold">Certifications</h2>
 					<div className="text-grey-700 py-4">
-						<p>
-							<IoMdRibbon size={30} className="text-black mr-2" />
-							Amazon Web Services CLF-002 Cloud Practitioner Certificate
-						</p>
-						<p className="mt-4">
-							<IoMdRibbon size={30} className="text-black mr-2" />
-							Udemy Ultimate AWS Certified Cloud Practitioner CLF-C02 by Stephane Maarek
-						</p>
-						<p className="mt-4">
-							<IoMdRibbon size={30} className="text-black mr-2" />
-							Student Volunteer Bureau Volunteer Incentive Program Gold Level
-						</p>
+						<ul className="Certification-list">
+							<li className="flex items-top text-lg">
+								<div className="flex-shrink-0">
+									<IoMdRibbon size={25} className="text-black mr-2" />
+								</div>
+								<div>Amazon Web Services CLF-002 Cloud Practitioner Certificate</div>
+							</li>
+							<li className="flex items-top text-lg">
+								<div className="flex-shrink-0">
+									<IoMdRibbon size={25} className="text-black mr-2" />
+								</div>
+								<div>
+									Udemy Ultimate AWS Certified Cloud Practitioner CLF-C02 by Stephane Maarek Incentive
+									Program Gold Level
+								</div>
+							</li>
+							<li className="flex items-top text-lg">
+								<div className="flex-shrink-0">
+									<IoMdRibbon size={25} className="text-black mr-2" />
+								</div>
+								<div>Student Volunteer Bureau Volunteer Incentive Program Gold Level</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-
-				<div className="skills-section">
+				<div className="skills-section ml-10 w-1/3 shadow-lg">
 					<h2 className="text-3xl sm:text-4xl font-bold">Skills</h2>
 					<div className="text-grey-700 py-4">
-						{/* List of skills here */}
-						<ul>
-							<li>Unity Game Development</li>
-							<li>Augmented Reality</li>
-							<li>Web Technologies (React, Bootstrap, Tailwind CSS)</li>
-							<li>SQL Queries for Data Optimization</li>
-							<li>Graphic Design</li>
+						<ul className="skills-list">
+							<li className="flex items-center py-3 text-lg">
+								<div className="flex-shrink-0">
+									<FaUnity size={25} className="mr-2" />
+								</div>
+								<div>Unity Game Development</div>
+							</li>
+							<li className="flex items-center py-3 text-lg">
+								<div className="flex-shrink-0">
+									<FaRegEye size={25} className="mr-2" />
+								</div>
+								<div>Augmented Reality</div>
+							</li>
+							<li className="flex items-center py-3 text-lg">
+								<div className="flex-shrink-0">
+									<FaCode size={25} className="mr-2" />
+								</div>
+								<div>Web Technologies (React, Bootstrap, Tailwind CSS)</div>
+							</li>
+							<li className="flex items-center py-3 text-lg">
+								<div className="flex-shrink-0">
+									<FaDatabase size={20} className="mr-2" />
+								</div>
+								<div>SQL Queries for Data Optimization</div>
+							</li>
+							<li className="flex items-center py-3 text-lg">
+								<div className="flex-shrink-0">
+									<FaPencilRuler size={20} className="mr-2" />
+								</div>
+								<div>Graphic Design</div>
+							</li>
 						</ul>
 					</div>
 				</div>
