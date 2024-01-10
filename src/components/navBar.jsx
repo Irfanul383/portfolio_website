@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
-    
+
     const links = [
         { id: 1, link: 'About' },
         { id: 2, link: 'Qualifications' },
@@ -40,20 +40,20 @@ const NavBar = () => {
 
             {nav && (
                 <ul
-                className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-teal-100 to-white text-black"
-            >
-                {links.map(({id,link}) =>(
-                    <li
-                        key={id}
-                        className='px4 cursor-pointer capitalize py-6 text-4xl'
-                    >
-                        {link}
+                    className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-teal-100 to-white text-black"
+                >
+                    {links.map(({ id, link }) => (
+                        <li
+                            key={id}
+                            className='px4 cursor-pointer capitalize py-6 text-4xl'
+                        >
+                            {link}
 
-                    </li>
-                ))}
-            </ul>
+                        </li>
+                    ))}
+                </ul>
             )}
-            
+
         </div>
     );
 };
