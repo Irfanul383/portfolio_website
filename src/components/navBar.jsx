@@ -6,11 +6,10 @@ const NavBar = () => {
     
     const links = [
         { id: 1, link: 'About' },
-        { id: 2, link: 'Education' },
+        { id: 2, link: 'Qualifications' },
         { id: 3, link: 'Experience' },
         { id: 4, link: 'Projects' },
-        { id: 5, link: 'Skills' },
-        { id: 6, link: 'Contact' }
+        { id: 5, link: 'Contact' }
     ];
 
     return (
