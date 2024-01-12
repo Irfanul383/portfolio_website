@@ -32,13 +32,13 @@ const Qualifications = () => {
 					<h2 className="flex flex-row text-3xl sm:text-4xl font-bold">Certifications</h2>
 					<div className="text-grey-700 py-4">
 						<ul className="Certification-list">
-							<li className="flex items-top text-lg">
+							<li className="flex items-top py-3 text-lg">
 								<div className="flex-shrink-0">
 									<IoMdRibbon size={25} className="text-black mr-2" />
 								</div>
 								<div>Amazon Web Services CLF-002 Cloud Practitioner Certificate</div>
 							</li>
-							<li className="flex items-top text-lg">
+							<li className="flex items-top py-3 text-lg">
 								<div className="flex-shrink-0">
 									<IoMdRibbon size={25} className="text-black mr-2" />
 								</div>
@@ -47,7 +47,7 @@ const Qualifications = () => {
 									Program Gold Level
 								</div>
 							</li>
-							<li className="flex items-top text-lg">
+							<li className="flex items-top py-3 text-lg">
 								<div className="flex-shrink-0">
 									<IoMdRibbon size={25} className="text-black mr-2" />
 								</div>
