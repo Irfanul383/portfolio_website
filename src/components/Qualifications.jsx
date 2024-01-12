@@ -12,11 +12,11 @@ const Qualifications = () => {
   return (
     <div
       name="education"
-      className="h-screen w-full bg-gradient-to-b from-teal-100 to-white"
+      className="w-full bg-gradient-to-b from-teal-100 to-white md:h-screen mt-5 mb-5 md:mt-0 md:mb-0"
     >
-      <div className="max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row">
-        <div className="Education-section w-1/3 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
-          <h2 className="text-3xl sm:text-4xl font-bold">Education</h2>
+      <div className="max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row md:space-y-0 space-y-10">
+        <div className="Education-section mx-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
+          <h2 className="text-2xl sm:text-3xl font-bold">Education</h2>
           <div className="text-grey-700 py-3">
             <ul className="Education-list">
               <li className="flex items-top py-3 text-lg">
@@ -37,8 +37,8 @@ const Qualifications = () => {
             </ul>
           </div>
         </div>
-        <div className="Certification-section ml-10 w-1/3 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
-          <h2 className="flex flex-row text-3xl sm:text-4xl font-bold">
+        <div className="Certification-section mx-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
+          <h2 className="flex flex-row text-2xl sm:text-3xl font-bold">
             Certifications
           </h2>
           <div className="text-grey-700 py-4">
@@ -72,8 +72,8 @@ const Qualifications = () => {
             </ul>
           </div>
         </div>
-        <div className="skills-section ml-10 w-1/3 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
-          <h2 className="text-3xl sm:text-4xl font-bold">Skills</h2>
+        <div className="skills-section shadow-md mx-10 shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
+          <h2 className="text-2xl sm:text-3xl font-bold">Skills</h2>
           <div className="text-grey-700 py-4">
             <ul className="skills-list">
               <li className="flex items-center py-3 text-lg">
