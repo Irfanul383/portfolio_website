@@ -51,7 +51,7 @@ const Projects = () => {
       <div className="max-w-screen-2xl p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-3xl font-bold inline border-b-4 border-black">
-            My Projects
+            My Projects(*This page is still under progress*)
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 px-12 sm:px-0">
