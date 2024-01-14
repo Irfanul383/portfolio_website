@@ -48,7 +48,8 @@ const Qualifications = () => {
                   <IoMdRibbon size={25} className="text-black mr-2" />
                 </div>
                 <div>
-                  Amazon Web Services CLF-002 Cloud Practitioner Certificate
+                  Amazon Web Services CLF-002 Cloud Practitioner
+                  Certificate(under progress)
                 </div>
               </li>
               <li className="flex items-top py-3 text-lg">
