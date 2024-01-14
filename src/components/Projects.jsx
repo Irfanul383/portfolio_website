@@ -45,7 +45,7 @@ const Projects = () => {
   ];
   return (
     <div
-      name="project"
+      name="Projects"
       className="w-full bg-gradient-to-b from-teal-100 to-white md:h-screen"
     >
       <div className="max-w-screen-2xl p-4 mx-auto flex flex-col justify-center w-full h-full">

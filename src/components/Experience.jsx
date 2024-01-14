@@ -3,12 +3,12 @@ import React from "react";
 const Experience = () => {
   return (
     <div
-      name="experience"
+      name="Experience"
       className="w-full bg-gradient-to-b from-teal-100 to-white md:h-screen mt-5 mb-5 md:mt-0 md:mb-0"
     >
       <div className="max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row md:space-y-0 space-y-10">
         {/* Experience Section 1 */}
-        <div className="Experience-section ml-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
+        <div className="Experience-section bg-gradient-to-b from-white to-teal-100 mx-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
           <h2 className="text-2xl m-4 sm:text-3xl font-bold">
             WebMaster | Muslim Student Association, Memorial University of
             Newfoundland (Dec 2023 - Current)
@@ -33,7 +33,7 @@ const Experience = () => {
           </div>
         </div>
         {/* Experience Section 2 */}
-        <div className="Experience-section ml-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
+        <div className="Experience-section bg-gradient-to-b from-white to-teal-100 mx-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
           <h2 className="text-2xl m-4 sm:text-3xl font-bold">
             Admissions Department Student Assistant | Memorial University of
             Newfoundland (Oct 2021-Current)
@@ -56,7 +56,7 @@ const Experience = () => {
           </div>
         </div>
         {/* Experience Section 3 */}
-        <div className="Experience-section ml-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
+        <div className="Experience-section bg-gradient-to-b from-white to-teal-100 mx-10 shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 md:w-1/3">
           <h2 className="text-2xl m-4 sm:text-3xl font-bold">
             Graphic Coordinator | Student Volunteer Bureau, Memorial University
             of Newfoundland (Sep 2022-Apr 2023)
