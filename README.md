@@ -1,9 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Website is accessible at: https://irfanul.netlify.app/
 
 ## Available Scripts
-Project is accessible at: https://irfanul.netlify.app/
 In the project directory, you can run:
 
 ### `npm start`
