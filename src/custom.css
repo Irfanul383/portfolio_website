@@ -1,0 +1,9 @@
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+  color: black !important;
+}
+
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
+  color: black !important;
+}
