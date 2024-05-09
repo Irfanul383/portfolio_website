@@ -10,8 +10,8 @@ const Experience = () => {
         {/* Experience Section 1 */}
         <div className="Experience-section bg-gradient-to-b from-white to-teal-100 mx-10 shadow-md shadow-gray-600 rounded-lg duration-200  md:w-1/3">
           <h2 className="text-2xl m-4 sm:text-3xl font-bold">
-            WebMaster | Muslim Student Association, Memorial University of
-            Newfoundland (Dec 2023 - Current)
+            Full-Stact developer | Muslim Student Association, Memorial
+            University of Newfoundland (Dec 2023 - Current)
           </h2>
           <div className="m-4 text-grey-700 py-3">
             <p>
