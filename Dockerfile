@@ -1,5 +1,5 @@
 #Build react app
-FROM node:20-alpine
+FROM node:20-alpine AS build
 
 WORKDIR /app
 
@@ -22,4 +22,4 @@ COPY --from=build /app/build .
 
 EXPOSE 80
 
-ENTRYPOINT [ "nginx", "-g", "daemon off;" ]
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
