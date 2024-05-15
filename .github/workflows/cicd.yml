@@ -27,4 +27,4 @@ jobs:
       - name: Delete Old Container
         run: docker rm -f reactContainer
       - name: Run docker container
-        run: docker run -d --name reactContainer irfanul383/portfolio_website
+        run: docker run -d -p 3000:80 --name reactContainer irfanul383/portfolio_website
