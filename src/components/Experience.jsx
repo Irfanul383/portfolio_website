@@ -15,12 +15,15 @@ const Experience = () => {
           </h2>
           <div className="m-4 text-grey-700 py-3">
             <p>
-              In this volunteer position, I am responsible for utilizing the
-              Bootstrap framework to enhance the website's design and
-              responsiveness. My role involves crafting interactive and dynamic
-              sections for events using React components and regularly updating
-              the website content to ensure it mirrors the latest information
-              and activities of the organization.
+              As a Full-Stack Developer for the Muslim Student Association at
+              Memorial University of Newfoundland, I developed and maintained a
+              NextJS app using JavaScript and TypeScript within an Agile team. I
+              employed the Bootstrap framework for front-end styling and used
+              React components for modular, dynamic user interfaces. The app
+              featured secure JWT and OAuth user authentication using the MERN
+              stack and was hosted on AWS Amplify with a CI/CD pipeline for
+              streamlined deployment. I also created comprehensive codebase
+              documentation to facilitate onboarding for new developers.
             </p>
           </div>
           <div className="skills-learned">
@@ -40,10 +43,12 @@ const Experience = () => {
           </h2>
           <div className="m-4 text-grey-700 py-3">
             <p>
-              In this role at Memorial University of Newfoundland, I developed
-              and maintained structured Excel sheets for student applications
-              and office inventory, designed optimized SQL queries for data
-              retrieval, and streamlined data management processes.
+              As a Student Assistant at the Registrar’s Office at Memorial
+              University of Newfoundland, I automated data entry forms for
+              student applications using VBA and SQL in MS Access. I also
+              streamlined the import and export of student application data
+              between MS Excel and the MS Access relational database, creating
+              efficient forms with VBA to enhance data management processes.
             </p>
           </div>
           <div className="skills-learned">
