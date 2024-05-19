@@ -15,21 +15,41 @@ const About = () => {
       className="h-screen w-full bg-gradient-to-b from-teal-100 to-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col px-2 justify-center h-full">
           <h2 className="text-3xl sm:text-3xl font-bold">
             Third year student at Memorial University of Newfoundland with a
             Computer Science major and Mathematics Minor
           </h2>
-          <p className="text-grey-700 py-4 max-w-md">
-            Skilled in Unity game development, augmented reality, and web
-            technologies (React, Bootstrap, and Tailwind CSS). Experienced in
-            data optimization through SQL queries. Led a graphic design team for
-            the Memorial University Student Volunteer Bureau and currently
-            serving as the WebMaster for the Muslim Student Association.
-            Pursuing AWS Cloud Practitioner certification and actively working
-            on a personal portfolio website, crafted with React and Tailwind
-            CSS, deployed using AWS Amplify. Eager to contribute skills,
-            creativity, and strong work ethic to innovative projects
+          <p className="text-grey-700 py-2 max-w-md">
+            👋 Hi there! I'm Mohammed Irfanul Haque, a dedicated and passionate
+            software developer with a strong foundation in full-stack
+            development, cloud technologies, and DevOps practices. I'm currently
+            pursuing a Bachelor of Science in Computer Science with a minor in
+            Mathematics at Memorial University of Newfoundland.
+          </p>
+          <p className="text-grey-700  max-w-md">
+            🚀 What I Bring to the Table:
+          </p>
+          <p className="text-grey-700 py-1 max-w-md">
+            Full-Stack Development: Proficient in front-end technologies like
+            Bootstrap and Tailwind CSS, and back-end frameworks including
+            ExpressJS, MongoDB, and NodeJS.{" "}
+          </p>
+          <p className="text-grey-700 py-1 max-w-md">
+            Cloud Expertise: Hands-on experience with AWS services such as EC2,
+            ELB, Route 53, and Amplify. I've implemented CI/CD pipelines with
+            GitHub Actions and Docker, ensuring streamlined deployments and
+            scalable applications.
+          </p>
+          <p className="text-grey-700 py-1 max-w-md">
+            DevOps Skills: Experienced in setting up and maintaining CI/CD
+            pipelines, utilizing Docker for containerization, and employing
+            GitHub Actions for continuous integration.
+          </p>
+          <p className="text-grey-700 py-1 max-w-md">
+            Mobile Development: Developed cross-platform mobile applications
+            using React Native and Expo, integrating complex APIs and managing
+            data with MongoDB Atlas.
           </p>
           <div className="flex space-x-4">
             {/* LinkedIn */}
