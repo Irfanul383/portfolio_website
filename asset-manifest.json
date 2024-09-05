@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.4d5145e9.css",
-    "main.js": "/portfolio_website/static/js/main.977d53b9.js",
+    "main.css": "/portfolio_website/static/css/main.259ddb48.css",
+    "main.js": "/portfolio_website/static/js/main.16c8e646.js",
+    "static/media/AI Assignment 4.mkv": "/portfolio_website/static/media/AI Assignment 4.b187e9400fe29a5980e3.mkv",
+    "static/media/AI Assignment 3.mkv": "/portfolio_website/static/media/AI Assignment 3.9dda3a9472d8ea1fc6d7.mkv",
+    "static/media/AI Assignment 5.mkv": "/portfolio_website/static/media/AI Assignment 5.6590697db10de9564ae9.mkv",
+    "static/media/Traffic jumper sample video.mp4": "/portfolio_website/static/media/Traffic jumper sample video.3e69c0e4eb8fb1a01f8b.mp4",
+    "static/media/AI Assignment 2.mkv": "/portfolio_website/static/media/AI Assignment 2.d243bca995dc02beb30b.mkv",
+    "static/media/CigsCounter Sample video.mp4": "/portfolio_website/static/media/CigsCounter Sample video.d38b2b83b6bb1888adbe.mp4",
+    "static/media/AI Assignment 1.mkv": "/portfolio_website/static/media/AI Assignment 1.243bde0376f1ae20bb07.mkv",
     "static/media/photo.jpg": "/portfolio_website/static/media/photo.87e70104d1efae2683b3.jpg",
-    "static/media/projectIMG_8.jpg": "/portfolio_website/static/media/projectIMG_8.3aba4323b7f32b8df2a6.jpg",
-    "static/media/projectIMG_6.jpg": "/portfolio_website/static/media/projectIMG_6.4337cf81233920ba186a.jpg",
-    "static/media/projectIMG_3.jpg": "/portfolio_website/static/media/projectIMG_3.7f0216b1626cfa72ff4d.jpg",
-    "static/media/projectIMG_7.jpg": "/portfolio_website/static/media/projectIMG_7.f734c33d1d7f80e00191.jpg",
-    "static/media/projectIMG_2.jpg": "/portfolio_website/static/media/projectIMG_2.f60edd152e982223e8a4.jpg",
-    "static/media/projectIMG_5.jpg": "/portfolio_website/static/media/projectIMG_5.873607e376e5e6c0b413.jpg",
-    "static/media/projectIMG_4.jpg": "/portfolio_website/static/media/projectIMG_4.c95cb0d0aaf7f6144a96.jpg",
-    "static/media/projectIMG_1.jpg": "/portfolio_website/static/media/projectIMG_1.a847474d009cb9741db7.jpg",
+    "static/media/User_review_website.mp4": "/portfolio_website/static/media/User_review_website.fbdb176be98178cb8fcc.mp4",
+    "static/media/slick.svg": "/portfolio_website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio_website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio_website/index.html",
-    "main.4d5145e9.css.map": "/portfolio_website/static/css/main.4d5145e9.css.map",
-    "main.977d53b9.js.map": "/portfolio_website/static/js/main.977d53b9.js.map"
+    "main.259ddb48.css.map": "/portfolio_website/static/css/main.259ddb48.css.map",
+    "main.16c8e646.js.map": "/portfolio_website/static/js/main.16c8e646.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d5145e9.css",
-    "static/js/main.977d53b9.js"
+    "static/css/main.259ddb48.css",
+    "static/js/main.16c8e646.js"
   ]
 }
