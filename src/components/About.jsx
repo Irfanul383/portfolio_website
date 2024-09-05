@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex flex-col px-2 justify-center h-full">
           <h2 className="text-3xl sm:text-3xl font-bold">
             Third year student at Memorial University of Newfoundland with a
-            Computer Science major and Mathematics Minor
+            Computer Science Major and Mathematics Minor
           </h2>
           <p className="text-grey-700 py-2 max-w-md">
             👋 Hi there! I'm Mohammed Irfanul Haque, a dedicated and passionate
