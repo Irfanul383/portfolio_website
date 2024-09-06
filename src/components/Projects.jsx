@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../custom.css";
 import ProjectVideo1 from "../assets/CigsCounter Sample video.mp4";
 import ProjectVideo2 from "../assets/Traffic jumper sample video.mp4";
-import ProjectVideo3 from "../assets/Traffic jumper sample video.mp4";
+//import ProjectVideo3 from "../assets/Traffic jumper sample video.mp4";
 import ProjectVideo4 from "../assets/User_review_website.mp4";
 import ProjectVideo5 from "../assets/AI Assignment 1.mkv";
 import ProjectVideo6 from "../assets/AI Assignment 2.mkv";
