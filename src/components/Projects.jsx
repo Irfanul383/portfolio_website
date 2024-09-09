@@ -111,7 +111,7 @@ const Projects = () => {
   return (
     <div
       name="Projects"
-      className="w-full bg-gradient-to-b from-teal-100 to-white md:h-screen"
+      className="w-full bg-gradient-to-b from-teal-100 to-white py-10 md:h-screen  mt-5 mb-5 md:mt-0 md:mb-0"
     >
       <div className="max-w-screen-2xl p-4 mx-auto w-full h-full flex flex-col md:flex-row justify-center items-center md:justify-between md:max-w-screen-2xl sm:max-w-screen-sm">
         {/* Personal Projects Section */}
@@ -119,7 +119,7 @@ const Projects = () => {
           <p className="text-3xl font-bold">Personal Projects</p>
           <Slider {...settings}>
             {personalProjects.map(({ id, src, githubUrl, description }) => (
-              <div key={id} className="p-3">
+              <div key={id} className="p-4">
                 <div className="shadow-md shadow-gray-600 rounded-lg">
                   <video
                     src={src}

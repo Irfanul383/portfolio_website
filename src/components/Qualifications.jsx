@@ -12,9 +12,10 @@ const Qualifications = () => {
   return (
     <div
       name="Qualifications"
-      className="w-full bg-gradient-to-b from-teal-100 to-white md:h-screen mt-5 mb-5 md:mt-0 md:mb-0"
+      className="w-full bg-gradient-to-b from-teal-100 to-white py-10 md:h-screen  mt-5 mb-5 md:mt-0 md:mb-0"
     >
       <div className="max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row md:space-y-0 space-y-10">
+        {/* Qualification Section 1 */}
         <div className="Education-section bg-gradient-to-b from-white to-teal-100 mx-10 shadow-md shadow-gray-600 rounded-lg duration-200  md:w-1/3">
           <h2 className="text-2xl sm:text-3xl font-bold">Education</h2>
           <div className="text-grey-700 py-3">
