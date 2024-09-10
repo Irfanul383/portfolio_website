@@ -49,8 +49,26 @@ const Qualifications = () => {
                   <IoMdRibbon size={25} className="text-black mr-2" />
                 </div>
                 <div>
-                  Amazon Web Services CLF-002 Cloud Practitioner
-                  Certificate(under progress)
+                  Amazon Web Services SAA- C03 Solution Architect Associate
+                  Certificate (Sep 2024)
+                </div>
+              </li>
+              <li className="flex items-top py-3 text-lg">
+                <div className="flex-shrink-0">
+                  <IoMdRibbon size={25} className="text-black mr-2" />
+                </div>
+                <div>
+                  Amazon Web Services CLF-002 Cloud Practitioner Certificate
+                  (May 2024)
+                </div>
+              </li>
+              <li className="flex items-top py-3 text-lg">
+                <div className="flex-shrink-0">
+                  <IoMdRibbon size={25} className="text-black mr-2" />
+                </div>
+                <div>
+                  Udemy Ultimate AWS Certified Solution Architect Associate
+                  SAA-C03 by Stephane Marek ( Aug 2024)
                 </div>
               </li>
               <li className="flex items-top py-3 text-lg">
@@ -59,7 +77,7 @@ const Qualifications = () => {
                 </div>
                 <div>
                   Udemy Ultimate AWS Certified Cloud Practitioner CLF-C02 by
-                  Stephane Maarek Incentive Program Gold Level
+                  Stephane Marek (Jan 2024)
                 </div>
               </li>
               <li className="flex items-top py-3 text-lg">
@@ -67,8 +85,8 @@ const Qualifications = () => {
                   <IoMdRibbon size={25} className="text-black mr-2" />
                 </div>
                 <div>
-                  Student Volunteer Bureau Volunteer Incentive Program Gold
-                  Level
+                  Student Volunteer Bureau Volunteer Incentive Program Gold (Apr
+                  2023) Level
                 </div>
               </li>
             </ul>
@@ -94,13 +112,16 @@ const Qualifications = () => {
                 <div className="flex-shrink-0">
                   <FaCode size={25} className="mr-2" />
                 </div>
-                <div>Web Technologies (React, Bootstrap, Tailwind CSS)</div>
+                <div>
+                  Web Technologies (Javascript, ExpressJS,Node, React, NextJS,
+                  Typescript, Bootstrap, Tailwind CSS)
+                </div>
               </li>
               <li className="flex items-center py-3 text-lg">
                 <div className="flex-shrink-0">
                   <FaDatabase size={20} className="mr-2" />
                 </div>
-                <div>SQL Queries for Data Optimization</div>
+                <div>SQL Queries and GraphQL for Data Optimization</div>
               </li>
               <li className="flex items-center py-3 text-lg">
                 <div className="flex-shrink-0">

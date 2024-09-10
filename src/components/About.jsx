@@ -36,15 +36,18 @@ const About = () => {
             ExpressJS, MongoDB, and NodeJS.
           </p>
           <p className="text-gray-700 py-1 max-w-md">
-            Cloud Expertise: Hands-on experience with AWS services such as EC2,
-            ELB, Route 53, and Amplify. I've implemented CI/CD pipelines with
-            GitHub Actions and Docker, ensuring streamlined deployments and
-            scalable applications.
+            Cloud Expertise: Hands-on experience with AWS services, including
+            EC2, Auto Scaling Groups, and Application Load Balancers (ALBs).
+            Configured secure and scalable infrastructures within a VPC,
+            implementing security measures with SSL/TLS encryption and
+            controlled access through security groups, and maintaining high
+            availability through dynamic scaling and traffic distribution
           </p>
           <p className="text-gray-700 py-1 max-w-md">
-            DevOps Skills: Experienced in setting up and maintaining CI/CD
-            pipelines, utilizing Docker for containerization, and employing
-            GitHub Actions for continuous integration.
+            DevOps Skills: Experienced in setting up and managing CI/CD
+            pipelines using GitHub Actions for automated deployments and
+            testing. Proficient in utilizing Docker for containerization,
+            ensuring consistency and reliability across environments.
           </p>
           <p className="text-gray-700 py-1 max-w-md">
             Mobile Development: Developed cross-platform mobile applications

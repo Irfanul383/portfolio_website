@@ -60,7 +60,7 @@ const Projects = () => {
       src: "ProjectVideo3",
       githubUrl: "https://github.com/Irfanul383/portfolio_website",
       description:
-        "Developed a responsive portfolio website, irfanul.com, using React.js and Tailwind CSS to showcase my projects and skills. Employed DevOps practices by creating a CI/CD pipeline with GitHub Actions for automated deployments, leveraging Docker containerization on AWS EC2. Enhanced the site's security and reliability by integrating an SSL certificate through AWS Certificate Manager and utilizing AWS Elastic Load Balancer for efficient traffic management. Hosted the website on a custom domain through AWS Route 53, ensuring professional and seamless access.",
+        "Developed a static portfolio website, irfanul.com, using React.js and Tailwind CSS to effectively showcase my experiences and projects. Established a CI/CD pipeline with GitHub Actions for automated deployments, leveraging Docker containers on AWS EC2 to enhance the development workflow. Ensured secure access by configuring security groups and enforcing SSL/TLS encryption through AWS Certificate Manager and an Application Load Balancer (ALB). Managed availability and scalability by implementing an Auto Scaling group for dynamic load handling and hosting the site on a custom domain via AWS Route 53 for seamless, professional access.",
     },
   ];
 
