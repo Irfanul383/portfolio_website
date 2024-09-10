@@ -20,10 +20,10 @@ const Experience = () => {
               NextJS app using JavaScript and TypeScript within an Agile team. I
               employed the Bootstrap framework for front-end styling and used
               React components for modular, dynamic user interfaces. The app
-              featured secure JWT and OAuth user authentication using the MERN
-              stack and was hosted on AWS Amplify with a CI/CD pipeline for
-              streamlined deployment. I also created comprehensive codebase
-              documentation to facilitate onboarding for new developers.
+              featured secure OAuth user authentication with ExpressJS and was
+              hosted on AWS Amplify with a CI/CD pipeline for streamlined
+              deployment. I also created comprehensive codebase documentation to
+              facilitate onboarding for new developers.
             </p>
           </div>
           <div>
